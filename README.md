@@ -8,6 +8,11 @@ Plugin contains 2 widgets <br>
 Minecraft Server - Single will show one server in your widget area with more detailed description and version of server.<br>
 Minecraft Server - Multi will show a list of servers with just name and players online.
 
+## How it works
+All data from servers are stored in a Wordpress database.
+With that optimalization there is a set timer to **60 seconds**, so your website won't ask server for data more then once per 60 sec.
+Then all the magic is happening in a background, so when somebody visits your site data are loaded fast from dabase and there is set a command to check for new data and load them to database meanwhile.
+
 ## Instructions
 Before using this class, you need to make sure that your server is running GS4 status listener.
 
