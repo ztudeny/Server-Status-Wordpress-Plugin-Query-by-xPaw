@@ -1,0 +1,115 @@
+.mcq-solo-online{
+	background: url('../images/dirt_online.png') no-repeat top center;
+}
+.mcq-solo-offline{
+	background: url('../images/dirt_offline.png') no-repeat top center;
+}
+.mcq-multi-online{
+	background: url('../images/dirt_multi_online.png') no-repeat top center;
+}
+.mcq-multi-offline{
+	background: url('../images/dirt_multi_offline.png') no-repeat top center;
+}
+.mcq-solo-online, .mcq-solo-offline{
+	height: 83px;
+	text-align: center;
+	padding-top: 14px;
+	color: #fff;
+}
+
+.mcq-multi-online, .mcq-multi-offline{
+	height: 65px;
+	text-align: center;
+	padding-top: 14px;
+	color: #fff;
+}
+
+.widget_mcqsolo_server_status{
+	color: #211C19;
+	font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+
+	.mcq-solo-online, .mcq-solo-offline{
+		margin-bottom: 0;
+	}
+	p{
+		font-size: 15px; /* Approximation due to font substitution */
+		font-weight: 400;
+		padding-bottom: 1em;
+		border-bottom: 1px dotted #B5B3AF;
+		//line-height: 40px; /* Approximation due to font substitution */
+	}
+	.mcqsolo-shortdescription{
+		font-size: 13px;
+		border-bottom: none;
+	}
+	.mcqplayers-solo{
+		font-size: 16px;
+		background: url('../images/online-players.jpg') no-repeat top left;
+		padding-left: 30px;
+	}
+	.mcqip-solo{
+		background: url('../images/world-cube.png') no-repeat top left;
+		padding-left: 30px;
+	}
+}
+
+.widget_mcqmulti_server_status {
+	font-family: 'Open Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	color: #211C19;
+
+	.mcq-multi-online, .mcq-multi-offline{
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: center;
+		padding: 8px 0px;
+
+		span{
+			padding-left: 14px;
+		}
+	}
+
+	.mcq-server-list{
+
+		li{
+			border-bottom: 1px dotted #B5B3AF;
+			padding-bottom: 0.75em;
+			margin-bottom: 0.25em;
+		}
+
+		h5{
+			display: inline-block;
+			font-size: 16px;
+			font-weight: normal;
+			float: left;
+			margin: 12px 0 10px 0;
+		}
+
+		.mcqplayers-multi{
+			display: inline-block;
+			float: right;
+			font-size: 14px;
+			margin: 14px 0 10px 0;
+
+			.mcq-online, .mcq-offline {
+				display: inline-block;
+				width: 13px;
+				height: 17px;
+				margin: 0 0 -2px 6px;
+				background:url('../images/online-small.png') no-repeat center center;
+
+			}
+		}
+
+		.mcqip-multi{
+			clear: both;
+			margin: 0;
+			background: url('../images/world-cube.png') no-repeat center left;
+			background-size: 15px;
+			padding-left: 28px;
+			font-size: 13px;
+		}
+	}
+
+}
+
