@@ -17,11 +17,11 @@ Look for those settings in **server.properties**:
 > *query.port=25565*
 
 ## Wordpress Installation
-Go to your wp-content/plugins and copy there folder minecraft-query.
+Go to your **~ wordpress/wp-content/plugins** and copy there folder **minecraft-query**.
 
 Then activate it in Wordpress plugins and go to Server Settings and set your properties.
 
-Last thing is going to Widgets, and Drag "Minecraft server - Multi" or "Minecraft server - Single" to your widget area and choose whitch server you want to show.
+Last thing is going to Widgets, and Drag **Minecraft server - Multi** or **Minecraft server - Single** to your widget area and choose whitch server you want to show.
 
 
 ## RCON
